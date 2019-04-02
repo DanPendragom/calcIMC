@@ -1,0 +1,66 @@
+section.calculo h1{
+  text-align: center;
+}
+section.calculo div.esquerdaStyle{
+  border-radius: 0px 0px 300px;
+  background-color: rgba(255, 255, 255, 0.849); 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.37);
+  padding-top: 18%;
+  padding-bottom: 15%; 
+}
+aside.detalhes div.direitaStyle{
+  border-radius: 50px 0px 0px 50px;
+  margin-top: 50%; 
+  background-color: rgba(255, 255, 255, 0.849); 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.37);
+  padding-top: 10%;
+  padding-bottom: 10%; 
+}
+aside.detalhes div.direitaStyle input.resStyle:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.521); 
+}
+aside.detalhes div.direitaStyle input.resStyle{
+  height:40px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.521);
+  font-size: 16px;
+  font-weight: bolder; 
+}
+section.calculo button{
+  padding: 3%;
+  margin: 10% auto 15% auto;
+  width: 60%;
+  border-radius: 20px 20px 20px;
+}
+div#containerStyle{
+  z-index: -1;
+  padding-bottom: 5%;
+  background-position: right bottom ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/calculoPRJ_CalculoImc.jpg);
+}
+div#containerBottomStyle{
+  box-shadow: 1px -5px 25px rgba(0, 0, 0, 0.5);
+  padding-bottom: 10%;
+}
+div.resultadoStyle{
+  visibility: hidden;
+}
+section.tableStyle h3{ 
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10px 30px 10px;
+  background-color: rgba(0, 0, 0, 0.527);
+}
+section.tableStyle img{ 
+  width: 100%;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.315);
+}

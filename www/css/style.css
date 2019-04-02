@@ -1,0 +1,80 @@
+
+/* <DEFINIÇÕES GERAIS>  */
+p{
+  text-align: justify;
+  text-indent: 2em;
+  color: rgb(136, 136, 136);
+}
+/* </DEFINIÇÕES GERAIS>  */
+section.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(15, 102, 15, 0.808), rgba(13, 196, 47, 0.712)); 
+  box-shadow:  -3px 5px 5px rgba(0, 0, 0, 0.596);
+  border-radius: 0px 20px 400px;
+  z-index: 10;
+}
+section.menu li{
+  font-size: 15px;
+  font-weight: bolder;
+  list-style: none;
+  padding:15px;
+  float: left;
+}
+section.menu li.opc1{
+  border-right: solid 1px rgb(0, 0, 0);
+}
+section.menu li.opc2{
+  border-radius: 0px 20px 400px;
+}
+section.menu li:hover{
+  background-color: rgba(122, 221, 122, 0.671);
+  color: black;
+}
+section.menu a li {
+  text-decoration: none;
+  color: white;
+}
+section.home{
+  background-image: url(../img/backPRJ_CalculoImc.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50%;
+}
+section.home h1{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top:25%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 7px;
+}
+section.home h1:hover{
+  color: black;
+  background-color: rgba(247, 247, 247, 0.527);
+}
+section.informativo h4{
+  text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.596);
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 5%;
+}
+section.informativo span{
+  font-weight: bolder;
+}
+section.footerStyle{
+  margin-top: 25px;
+}
+section.footerStyle h4{
+  margin-top: 0px;
+  text-align: right;
+  font-size: 14px;
+  color: grey;
+}

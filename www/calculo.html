@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  
+  <script src="components/jquery-3.3.1.min.js"></script>
+  <script src="components/calculoImc.js"></script>
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleCalc.css">
+</head>
+<body>
+   <!-- MENU -->
+  <section class="menu">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <a href="index.html"><li class="opc1">Pagina Inicial</li></a>
+          <a href="calculo.html"><li class="opc2">Calcule seu IMC!</li></a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="containerStyle">
+    <div class="row">
+      <!--LADO ESQUERDO -->
+      <section class="calculo">
+        <div class="col-xs-6 esquerdaStyle">
+          <!--ALTURA -->
+          <div class="row">
+            <div class="col-xs-12">
+              <label for="altura"> Informe sua altura </label>
+              <input type="number" class="form-control inputStyle" id="altura">
+            </div>
+          </div>
+          <!-- PESO -->
+          <div class="row">
+            <div class="col-xs-12">
+              <label for="peso"> Informe seu peso (Kg)</label>
+              <input type="number" class="form-control inputStyle" id="kg">
+            </div>
+          </div>
+          <!--BOTAO -->
+          <div class="row">
+            <div class="col-xs-12">
+              <button class="form-control btn-success"id="resultado">CALCULAR!</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LADO DIREITO -->
+      <aside class="detalhes">
+        <div class="col-xs-6 direitaStyle">
+          <input readonly="true" class=" resStyle" id="resTitle" type="text">
+          <input readonly="true" class="resStyle" id="resInfo" type="text">
+        </div>
+      </aside>     
+    </div>
+  </div>
+  <div class="container" id="containerBottomStyle">
+    <section class="tableStyle">
+      <div class="row">
+      <div class="col-xs-12">
+        <h3>Base de calculo</h3>
+        <img src="img/tabelaPRJ_CalculoImc.png" alt="">>
+      </div>
+    </div>
+    </section>
+    <section class="footerStyle">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 text-right>Carlos Emilio - 1Ds2 ETEC ADOLPHO BEREZIN</h4>
+          <h4> Fevereiro de 2019</h4>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
